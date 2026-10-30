@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Host Guide · Birthday Feud</title>
+<style>
+:root{--navy:#0a1446;--gold:#f7c948;--pink:#ff2d95;--cyan:#26f0ff;--ink:#e8ecff;--mute:#9aa4d8;--card:#121a4a;--line:#26317c}
+*{box-sizing:border-box}
+body{margin:0;background:#070b24;color:var(--ink);font:17px/1.5 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-text-size-adjust:100%}
+header{padding:22px 16px 14px;background:linear-gradient(180deg,#16247a,#070b24);text-align:center}
+header h1{margin:0;font:900 28px/1.1 "Arial Black",Arial,sans-serif;color:var(--gold);letter-spacing:1px}
+header p{margin:6px 0 0;color:var(--pink);font-weight:700}
+nav{position:sticky;top:0;z-index:5;display:flex;gap:6px;overflow-x:auto;padding:10px 12px;background:#0b1036;border-bottom:1px solid var(--line)}
+nav a{flex:none;padding:7px 12px;border-radius:20px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:14px;font-weight:600}
+main{max-width:760px;margin:0 auto;padding:6px 14px 60px}
+h2{margin:28px 0 10px;font:900 21px "Arial Black",Arial,sans-serif;color:var(--gold);scroll-margin-top:60px}
+h3{margin:0 0 6px;font-size:17px;color:var(--cyan)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0}
+.card.pink{border-color:var(--pink)}
+.card.bolt{border-color:#8a2be2}
+.say{border-left:4px solid var(--pink);padding:4px 12px;margin:8px 0;font-style:italic;color:#ffd1ea}
+ol,ul{margin:6px 0;padding-left:22px}
+li{margin:3px 0}
+.ans{list-style:none;padding:0;margin:8px 0 0}
+.ans li{display:flex;justify-content:space-between;gap:10px;padding:7px 10px;margin:4px 0;background:#0b1033;border-radius:8px}
+.ans li b{color:var(--gold)}
+.tag{display:inline-block;padding:1px 9px;border-radius:12px;font-size:12px;font-weight:800;letter-spacing:.5px;margin-right:6px;vertical-align:middle}
+.t-feud{background:#2240c0}.t-bday{background:var(--pink)}.t-bolt{background:#8a2be2}.t-triv{background:#0b8a55}.t-fm{background:#b8860b}
+kbd{display:inline-block;min-width:24px;padding:1px 7px;border-radius:6px;background:#1a2a78;border:1px solid #5f78ff;font:700 14px Consolas,monospace;color:#fff;text-align:center}
+.keys{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-items:center}
+.mute{color:var(--mute);font-size:14px}
+.ok{color:#2bff8f;font-weight:700}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td{padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+</style>
+</head>
+<body>
+<header>
+  <h1>BIRTHDAY FEUD</h1>
+  <p>Host guide · Paola Paz's 40th · YASA vs Come On Somebody</p>
+</header>
+<nav>
+  <a href="#setup">Setup</a><a href="#rules">How to play</a><a href="#keys">iPad controls</a><a href="#run">Run of show</a><a href="#fm">Fast Money</a><a href="#oops">If something goes wrong</a>
+</nav>
+<main>
+
+<h2 id="setup">Before guests arrive</h2>
+<div class="card">
+<ol>
+  <li><b>Laptop → TV:</b> open the game link (your GitHub Pages address) in Chrome and cast the tab or the whole screen to the TV.</li>
+  <li><b>Click once</b> on the TV page — that turns on sound and full screen. You should see “● Live” in the corner for a moment.</li>
+  <li><b>iPad:</b> open the same address + <b>host.html</b> in Safari. Enter the PIN (<b>1986</b> unless you changed it). Tip: Share → Add to Home Screen so it opens like an app.</li>
+  <li>Tap <b>Next</b> once on the iPad and watch the TV change — if it does, you're connected.</li>
+  <li>Turn the TV volume up. The sound plays from the laptop/TV, not the iPad.</li>
+  <li>Split guests into two teams of five. Everyone else is the audience.</li>
+</ol>
+<p class="mute">Backup plan: if the Wi-Fi dies, open <b>birthday-feud.html</b> on the laptop and run it from the keyboard (shortcuts are further down).</p>
+</div>
+<h2 id="rules">How Family Feud works (2-minute version)</h2>
+<div class="card">
+<h3>1 · Face-off</h3>
+<p>One player from each team steps up. Read the question. Whoever answers first (raise a hand / slap the table) gives an answer. Reveal it if it's on the board.</p>
+<p>The team whose answer ranks <b>higher</b> on the board wins the face-off and chooses to <b>play</b> (or pass to the other team).</p>
+</div>
+<div class="card">
+<h3>2 · Play</h3>
+<p>The playing team takes turns, one player at a time, guessing answers. Every correct answer adds points to the <b>bank</b>.</p>
+<p>Wrong answer = <b>strike</b>. Three strikes and they're out.</p>
+</div>
+<div class="card">
+<h3>3 · Steal</h3>
+<p>After 3 strikes, the other team huddles and gets <b>one</b> guess. If it's on the board, they steal the entire bank. If not, the bank goes to the team that was playing.</p>
+<p>If the playing team finds every answer before 3 strikes, they win the bank — no steal.</p>
+</div>
+<div class="card">
+<h3>The game does the math</h3>
+<p>Bank, strikes, steals and scores all happen automatically when you press the keys below. You just read, react, and keep the energy up.</p>
+</div>
+
+<h2 id="keys">Using the iPad controls</h2>
+<div class="card">
+<p>The purple box at the top of the <b>Play</b> tab always tells you what to do next — just follow it.</p>
+<ul>
+  <li><b>Next ▶ / ◀ Back</b> move the TV forward and back.</li>
+  <li><b>↶ Undo</b> takes back the last tap (as many times as you need).</li>
+  <li><b>Scores:</b> the −10 / −1 / +1 / +10 buttons fix any score.</li>
+  <li><b>Feud boards:</b> tap an answer to flip it. Red <b>Strike</b> for wrong answers. After the face-off, tap the team that plays. Steals and bank points happen automatically.</li>
+  <li><b>Lightning boards:</b> tap answers as they're shouted; tap the team that said #1 first (+25).</li>
+  <li><b>Trivia:</b> tap the team's pick, <b>Reveal answer</b>, then tap the team that earns the points.</li>
+  <li><b>Fast Money:</b> Start the timer, tap the matching answer chip for each question, then Reveal. Switch to Player 2 when ready.</li>
+  <li><b>Jump the TV to…</b> at the bottom of Play skips to any round.</li>
+</ul>
+<h3>Other tabs</h3>
+<ul>
+  <li><b>👥 Teams:</b> type team names — they appear on the TV as you type.</li>
+  <li><b>✎ Edit:</b> change any question, answer or point value; add rounds; build a new question set.</li>
+  <li><b>⚙ More:</b> TV sound on/off, reset scores, switch question sets, answer key, backup, change PIN.</li>
+</ul>
+</div>
+<div class="card">
+<h3>Rematch</h3>
+<p>At the end of the game, the iPad shows <b>Start Rematch with new teams</b>. That clears the scores and team names, shows “Who's playing?” on the TV, and runs the Rematch set: 3 new Feud boards, 10 new 1986 trivia questions and a new Fast Money.</p>
+</div>
+<details class="card"><summary><b>Laptop keyboard shortcuts (backup file only)</b></summary>
+<p class="mute">These work in <b>birthday-feud.html</b>, not the online version.</p>
+<div class="keys">
+<kbd>→</kbd><span>Next</span><kbd>←</kbd><span>Back</span><kbd>H</kbd><span>Host panel</span><kbd>F</kbd><span>Full screen</span><kbd>U</kbd><span>Undo</span>
+<kbd>1</kbd><span>…<kbd>8</kbd> reveal answer</span><kbd>X</kbd><span>Strike</span><kbd>Q</kbd><span>Left team plays / gets points</span><kbd>P</kbd><span>Right team plays / gets points</span>
+<kbd>Space</kbd><span>Trivia: reveal answer</span><kbd>T</kbd><span>Fast Money timer</span><kbd>N</kbd><span>Fast Money: next player</span>
+</div></details>
+<h2 id="run">Run of show (answers included)</h2>
+<p class="mute">Feud point values are estimates for fun — no survey was taken. The Birthday Girl boards are ranked by Paola, and the screen says so.</p>
+
+<div class="card"><h3><span class="tag t-feud">FEUD</span>1 · Round 1</h3>
+<div class="say">“Name something you'd find in a teenage girl's bedroom in the '80s.”</div>
+<ul class="ans"><li>Posters<b>32</b></li><li>Cassette tapes<b>24</b></li><li>Phone with a long cord<b>15</b></li><li>Hairspray<b>11</b></li><li>Diary<b>8</b></li><li>Boombox<b>6</b></li></ul></div>
+
+<div class="card"><h3><span class="tag t-triv">TRIVIA</span>2 · 1986 Trivia · Part 1</h3>
+<p class="mute">Teams alternate. Read the question and all 4 choices; the team picks; tap Reveal answer; tap the team that earns 10 points. Wrong team? Give the other team a chance to steal it if you like.</p>
+<table>
+<tr><td>Which shuttle was lost in January 1986?</td><td class="ok">Challenger</td></tr>
+<tr><td>#1 U.S. box-office movie of 1986?</td><td class="ok">Top Gun</td></tr>
+<tr><td>Famous comet back in view in 1986?</td><td class="ok">Halley's Comet</td></tr>
+<tr><td>Talk show that went national Sept. 1986?</td><td class="ok">The Oprah Winfrey Show</td></tr>
+<tr><td>Winner of Super Bowl XX (Jan. 1986)?</td><td class="ok">Chicago Bears</td></tr>
+</table></div>
+
+<div class="card"><h3><span class="tag t-feud">FEUD</span>3 · Round 2</h3>
+<div class="say">“Name something a woman might do to celebrate turning 40.”</div>
+<ul class="ans"><li>Throw a party<b>30</b></li><li>Take a trip<b>22</b></li><li>Spa day<b>15</b></li><li>Fancy dinner<b>12</b></li><li>Get a makeover<b>8</b></li><li>Buy something expensive<b>6</b></li><li>Cry a little<b>4</b></li></ul></div>
+
+<div class="card pink"><h3><span class="tag t-bday">BIRTHDAY · ×2</span>4 · Paola's Can't-Live-Withouts</h3>
+<div class="say">“It's the Birthday Girl round — double points! Name something Paola can't live without.”</div>
+<ul class="ans"><li>Cold brew with half &amp; half<b>35 → 70</b></li><li>Stevia<b>25 → 50</b></li><li>Tabasco<b>22 → 44</b></li><li>AirPods<b>18 → 36</b></li></ul>
+<p class="mute">Points shown on screen are already doubled.</p></div>
+
+<div class="card pink"><h3><span class="tag t-bday">BIRTHDAY · ×2</span>5 · Paola's Favorite Movie</h3>
+<div class="say">“Paola's all-time favorite movie is Mean Girls. Name something from Mean Girls.”</div>
+<ul class="ans"><li>Regina George<b>30 → 60</b></li><li>The Burn Book<b>22 → 44</b></li><li>Pink on Wednesdays<b>20 → 40</b></li><li>“Fetch”<b>16 → 32</b></li><li>The Plastics<b>12 → 24</b></li></ul></div>
+
+<div class="card bolt"><h3>⚡ Lightning bonus — how it works</h3>
+<p>No face-off, no strikes. Both teams shout answers. Reveal each one as it's said. <b>The first team to say the #1 answer wins 25 points</b> (tap their team). Then Reveal the rest and Next. These go fast — that's the fun.</p></div>
+
+<div class="card bolt"><h3><span class="tag t-bolt">⚡ LIGHTNING</span>6 · Tacos Charlie</h3>
+<div class="say">“Name something you'd order at Tacos Charlie.”</div>
+<ul class="ans"><li>Pirata taco <span class="mute">(#1 — the winner)</span><b>40</b></li><li>Loaded nachos<b>25</b></li><li>Quesabirria<b>20</b></li><li>Mini tacos<b>15</b></li></ul></div>
+
+<div class="card bolt"><h3><span class="tag t-bolt">⚡ LIGHTNING</span>7 · Sunday Morning</h3>
+<div class="say">“Name something Paola does at church.”</div>
+<ul class="ans"><li>Leads worship <span class="mute">(#1)</span><b>45</b></li><li>Plays guitar<b>35</b></li><li>Sings<b>20</b></li></ul></div>
+
+<div class="card bolt"><h3><span class="tag t-bolt">⚡ LIGHTNING</span>8 · The Day Job</h3>
+<div class="say">“Let's see who really knows her — what does Paola do for a living?”</div>
+<ul class="ans"><li>Sales engineer <span class="mute">(#1)</span><b>40</b></li><li>Sales<b>30</b></li><li>Engineer<b>20</b></li><li>Something with machines<b>10</b></li></ul>
+<p class="mute">Fun moment: Paola can explain what she actually does after the reveal.</p></div>
+
+<div class="card bolt"><h3><span class="tag t-bolt">⚡ LIGHTNING</span>9 · Zero Awareness</h3>
+<div class="say">“According to her husband… name something Paola has ZERO of.”</div>
+<ul class="ans"><li>Social awareness <span class="mute">(#1)</span><b>45</b></li><li>Situational awareness<b>30</b></li><li>A filter<b>25</b></li></ul></div>
+
+<div class="card"><h3><span class="tag t-triv">TRIVIA</span>10 · 1986 Trivia · Part 2</h3>
+<table>
+<tr><td>TV network that launched Oct. 1986?</td><td class="ok">Fox</td></tr>
+<tr><td>Nintendo game first released in Japan in 1986?</td><td class="ok">The Legend of Zelda</td></tr>
+<tr><td>Statue of Liberty's birthday in 1986?</td><td class="ok">100th</td></tr>
+<tr><td>1986 movie: teen skips school in Chicago?</td><td class="ok">Ferris Bueller's Day Off</td></tr>
+<tr><td>1986 World Series winner?</td><td class="ok">New York Mets</td></tr>
+</table></div>
+
+<div class="card"><h3><span class="tag t-feud">FEUD · ×3</span>11 · Final Round — triple points</h3>
+<div class="say">“Triple points — anything can happen! Name a popular hairstyle or hair trend from the 1980s.”</div>
+<ul class="ans"><li>Perm<b>28 → 84</b></li><li>Big bangs<b>22 → 66</b></li><li>Mullet<b>18 → 54</b></li><li>Side ponytail<b>12 → 36</b></li><li>Crimped hair<b>8 → 24</b></li><li>Scrunchies<b>5 → 15</b></li><li>Feathered hair<b>4 → 12</b></li><li>Mohawk<b>3 → 9</b></li></ul></div>
+
+<h2 id="fm">12 · Fast Money (finale)</h2>
+<div class="card">
+<p>The team with the most points picks <b>two players</b>. Player 2 leaves the room (or wears headphones) so they can't hear.</p>
+<ol>
+  <li><b>Player 1:</b> tap <b>▶ Start</b> (20 seconds). Read the 5 questions fast. For each answer, tap the closest answer chip (or type it in).</li>
+  <li>Tap <b>Reveal</b> on each answer, one at a time, for the drama.</li>
+  <li>Tap <b>Player 2</b> — Player 1's answers hide on the TV. Bring Player 2 back and tap <b>▶ Start</b> (25 seconds). If they repeat an answer, tap <b>Duplicate!</b> and say “Try again!”</li>
+  <li>Tap <b>Show Player 1</b>, then reveal Player 2's answers.</li>
+  <li><b>200 points together = they win Fast Money!</b> Confetti fires automatically.</li>
+  <li>Tap <b>Next</b> for the winner screen and “Happy 40th, Paola Paz!” — then offer a rematch.</li>
+</ol>
+</div>
+<div class="card">
+<h3>Fast Money questions &amp; answers</h3>
+<table>
+<tr><td><b>1.</b> Something people bring to a birthday party</td><td>Gifts 34 · Card 22 · Dessert 16 · Balloons 12 · Flowers 8</td></tr>
+<tr><td><b>2.</b> A famous 1980s toy</td><td>Rubik's Cube 30 · Cabbage Patch Kids 24 · Care Bears 16 · Transformers 12 · My Little Pony 10</td></tr>
+<tr><td><b>3.</b> Something people do to look younger</td><td>Dye their hair 30 · Botox 24 · Skincare 18 · Work out 14 · Lie about their age 8</td></tr>
+<tr><td><b>4.</b> A food or drink San Antonio is famous for</td><td>Breakfast tacos 34 · Barbacoa &amp; Big Red 24 · Puffy tacos 18 · Fajitas 12 · Enchiladas 8</td></tr>
+<tr><td><b>5.</b> Something that gets worse after 40</td><td>Eyesight 30 · Your back 22 · Memory 18 · Knees 14 · Metabolism 10</td></tr>
+</table>
+<p class="mute">Close enough counts — you're the judge. “Presents” = Gifts, “Rubik's” = Rubik's Cube, etc.</p>
+</div>
+
+<h2 id="oops">If something goes wrong</h2>
+<div class="card">
+<ul>
+  <li><b>Tapped the wrong thing?</b> ↶ Undo.</li>
+  <li><b>TV not changing?</b> Look at the pill at the top of the iPad. “Offline — retrying” means Wi-Fi trouble; it catches up by itself once it reconnects. You can also refresh the TV page — it picks up exactly where you were.</li>
+  <li><b>No sound?</b> Click once on the TV page; check TV volume; check ⚙ More → TV sound is ON.</li>
+  <li><b>iPad asks for the PIN again?</b> Enter it — nothing is lost.</li>
+  <li><b>Start over?</b> ⚙ More → Reset scores &amp; progress (tap twice).</li>
+</ul>
+</div>
+<p class="mute" style="text-align:center;margin-top:30px">This guide works offline on any phone.</p>
+</main>
+</body>
+</html>
